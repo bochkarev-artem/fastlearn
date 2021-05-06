@@ -1,1 +1,1 @@
-Sitemap: https://bochkarev-artem.github.io/fastlearn/sitemap.xml
+Sitemap: fastlearn.dev/fastlearn/sitemap.xml
