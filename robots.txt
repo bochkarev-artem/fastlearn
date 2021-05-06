@@ -1,1 +1,1 @@
-Sitemap: fastlearn.dev/sitemap.xml
+Sitemap: https://fastlearn.dev/sitemap.xml
