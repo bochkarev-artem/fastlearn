@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>fastlearn.dev/fastlearn/jupyter/2020/02/20/test.html</loc>
+<loc>fastlearn.dev/jupyter/2020/02/20/test.html</loc>
 <lastmod>2020-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>fastlearn.dev/fastlearn/about/</loc>
+<loc>fastlearn.dev/about/</loc>
 </url>
 <url>
-<loc>fastlearn.dev/fastlearn/</loc>
+<loc>fastlearn.dev/</loc>
 </url>
 <url>
-<loc>fastlearn.dev/fastlearn/search/</loc>
+<loc>fastlearn.dev/search/</loc>
 </url>
 <url>
-<loc>fastlearn.dev/fastlearn/categories/</loc>
+<loc>fastlearn.dev/categories/</loc>
 </url>
 </urlset>
