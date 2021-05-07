@@ -11,6 +11,17 @@
         
     
   
+    
+        ,"post1": {
+            "title": "Install fastai on Linux (Ubuntu)",
+            "content": "Why do you want to do it (and when not to do it) . So you decided to create your local environment instead of hosting your notebooks on some cloud hosting. There are some benefits to that: . You dont depend on 3rd party service, you can run your environment anytime you want, even offline | You are more flexible with your code (you can run your notebooks not only in browser, but also in some IDE or text editor that you prefer) | You dont pay / wait for server to spin up | . But there are definitely some downsides: . There is much of a hustle to install it (actually not, but sometimes you will have problems every now and then) | You need to have a good hardware (Author of this article runs it on 2GB Nvidia Geforce 1050 and its very slow even in comparison to free resources, such as Colab, and some time there is out of memory problems. Though its still faster than on CPU) | . Prerequisites . You should be familiar with how to work with terminal. You can check tutorial here. . Installation on local computer with Linux (Ubuntu) pre-installed . So what do you actually need to install fastai + pytorch on you local machine. Well, its pretty simple and straightforward. Given that you know that your video card is CUDA capable (which you can find out in this guide https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#system-requirements), all you need to do is follow these commands: . Download miniconda: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#system-requirements and go to directory where you downloaded it and execute it:sh Miniconda3-py39_4.9.2-Linux-x86_64.sh . | Than you need to init conda and create an environment, so all dependencies live in this env separate from your system&#39;s . Note: I assume you have python installed, if not, you need to install it and change the version in following command (3.9) if it differs from your conda init zsh conda create --name fast python=3.9 -y . . Note: You see i have zsh (instead of bash), so use what is appropriate for you. | Install dependencies | conda install -c fastchan fastai conda install -c conda-forge jupyterlab . And you are good to go with minimum installation. Note that nvidia toolkit should be downloaded as dependency during last step. There is no need to download it separately (although you might want to install and switch on proprietary nvidia drivers for Ubuntu, latest version is 465 when writing this post). . To run your notebook you need simply to go to your notebooks location in terminal and run: . jupyter notebook . Problems . Of course you might encounter some issues during or after installation. Common thing is if you have not enough GPU memory you will see out of memory a lot. One of the solution is to decrease batch size to 16 (8, 4, 2) and restart kernel of notebook. But then you will notice increase in time for training. This is the price you will pay for having low memory. Here you can find more about batch size. .",
+            "url": "https://fastlearn.dev/fastai/linux%20installation/2021/05/06/_05_07_Install_fastai_on_linux.html",
+            "relUrl": "/fastai/linux%20installation/2021/05/06/_05_07_Install_fastai_on_linux.html",
+            "date": " • May 6, 2021"
+        }
+        
+    
+  
 
   
   
